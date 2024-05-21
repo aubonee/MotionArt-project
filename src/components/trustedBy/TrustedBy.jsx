@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img1 from '../../assets/motionarteffect-img2.png'
 import img2 from '../../assets/motionarteffect-img1.png'
 import img3 from '../../assets/motionarteffect-img3.png'
@@ -7,7 +7,7 @@ import img4 from '../../assets/motionarteffect-img4.png'
 
 const TrustedBy = () => {
     return (
-        <div className='text-[#EEE5FF] py-10'>
+        <div className='text-[#EEE5FF] py-10 '>
             <div className='text-center mb-20'>Trusted by thousands of users around the world</div>
             <div className=" mx-auto w-full lg:w-11/12 grid grid-cols-1 lg:grid-cols-3 gap-x-20 gap-y-10">
                 <div className='flex justify-center items-center'>

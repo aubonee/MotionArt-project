@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img from '../../assets/motionarteffect-img5.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,7 +6,8 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const PurchaseFromEnvato = () => {
     return (
-        <div className='w-full'>
+     <div>
+           <div className='w-full'>
             <div className="mx-auto  px-10 w-11/12 text-[#EEE5FF] py-12 flex flex-col lg:flex-row justify-center lg:justify-between  items-center">
                 <div className='w-full lg:w-3/5'>
                     <h2 className='text-[30px] leading-10 '>Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</h2>
@@ -18,6 +19,7 @@ const PurchaseFromEnvato = () => {
                 </div>
             </div>
         </div>
+     </div>
     );
 };
 

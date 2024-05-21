@@ -1,8 +1,8 @@
-import React from 'react';
-
 const Banner = () => {
     return (
-<div className="mx-auto w-full bg-[#0E0F1A] h-[100vh] flex justify-center items-center">
+ 
+
+<div className="mx-auto w-full  h-[100vh] flex justify-center items-center">
 
 <div className='mx-auto w-11/12  flex flex-col md:flex-row justify-start items-start gap-20'>
             <div className='w-full md:w-2/6 lg:w-1/5  flex justify-center items-start pt-3'> 

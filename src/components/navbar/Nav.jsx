@@ -1,5 +1,5 @@
 
-import Button from '@mui/material/Button';
+
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -12,7 +12,8 @@ import logo from "../../assets/MotionArtEffect-logo.png"
 
 const Nav = () => {
     return (
-        <div  className='bg-[#0E0F1A]'>
+      // className='hover:bg-opacity-20'
+        <div  >
     <div className='w-11/12 mx-auto pt-10'>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar  position="static" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>

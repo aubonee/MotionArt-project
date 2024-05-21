@@ -17,10 +17,12 @@
     "@fortawesome/react-fontawesome": "^0.2.1",
     "@mui/material": "^5.15.18",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "fluid-simulation-react": "^1.0.5",
     "font-awesome-icons": "^1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^6.1.11"
+    "styled-components": "^6.1.11",
+    "webgl-fluid": "^0.3.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
