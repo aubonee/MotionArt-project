@@ -2,12 +2,24 @@ import React from 'react';
 import img1 from '../../assets/motionarteffect-img6.png'
 import img2 from '../../assets/motionarteffect-img7.png'
 import img3 from '../../assets/motionarteffect-img9.png'
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const Features = () => {
+    useGSAP(()=>{
+           gsap.from('.feature-heading', {
+            y: 600, 
+            scrollTrigger: {
+              trigger: 'feature-heading',
+             scroller: 'body',
+             markers: true
+            }
+          });
+    })
     return (
         <div className='w-full text-[#EEE5FF] py-16'>
             <div className='w-11/12 md:w-2/3 lg:w-1/2 mx-auto'>
-                <h2 className='py-5 text-[40px] text-center'> An All-Round Plugin With <br /> Powerful Features</h2>
+                <h2 className='feature-heading py-5 text-[40px] text-center'> An All-Round Plugin With <br /> Powerful Features</h2>
                 <p className='pb-5 text-[16px] text-center'> Whether you're a seasoned web designer or just starting out, Motion Art for Elementor seamlessly integrates with the Elementor platform, providing you with a seamless and intuitive experience.</p>
             </div>
 
