@@ -1,9 +1,19 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 import React from 'react';
 
 
 const Footer = () => {
+  useGSAP(()=>{
+    gsap.from(".gsapbox",{
+        y: 0,
+        x:0,
+        duration:2,
+        delay:1,
+    })
+  })
     return (
-        <div className='px-5 py-3 text-[#EEE5FF] bg-gradient-to-r from-[#F87516] to-[#5e11ff] flex flex-col lg:flex-row-reverse justify-between items-start lg:items-center'>
+        <div className='gsapbox mt-5 px-5 py-3 text-[#EEE5FF] bg-gradient-to-r from-[#F87516] to-[#5e11ff] flex flex-col lg:flex-row-reverse justify-between items-start lg:items-center'>
            
 
            <div>

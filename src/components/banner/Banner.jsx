@@ -1,8 +1,20 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
 const Banner = () => {
+
+    useGSAP(()=>{
+        gsap.from(".gsapbox",{
+            y: 0,
+            x:0,
+            duration:2,
+            delay:1,
+        })
+      })
     return (
  
 
-<div className="mx-auto w-full  h-[100vh] flex justify-center items-center">
+<div className=" gsapbox mx-auto w-full mb-5 h-[100vh] flex justify-center items-center">
 
 <div className='mx-auto w-11/12  flex flex-col md:flex-row justify-start items-start gap-20'>
             <div className='w-full md:w-2/6 lg:w-1/5  flex justify-center items-start pt-3'> 
