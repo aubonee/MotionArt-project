@@ -45,7 +45,7 @@ const Nav = () => {
           </Typography>
          
         
-    <button className=" btn bg-[#FFFFFF] px-5 py-3 rounded-md text-black">Purchase Now</button>
+    <button className=" btn bg-[#FFFFFF] hover:bg-transparent border-[#FFFFFF] border-2 px-5 py-3 rounded-md text-black hover:text-[#ffffff]">Purchase Now</button>
         </Toolbar>
       </AppBar>
     </Box>

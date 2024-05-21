@@ -12,6 +12,8 @@ import { useRef, useEffect } from 'react';
 import Fluid from 'webgl-fluid';
 import SupportedBy from "./components/SupportedBy/SupportedBy";
 import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
+import ApplyOn from "./components/applyOn/ApplyOn";
 
 
 
@@ -32,8 +34,10 @@ export default function App() {
          <Banner></Banner>
          <TrustedBy></TrustedBy>
         <PurchaseFromEnvato></PurchaseFromEnvato>
+        <ApplyOn></ApplyOn>
         <SupportedBy></SupportedBy>
         <Features></Features>
+        <Footer></Footer>
         
     </div>
   );
