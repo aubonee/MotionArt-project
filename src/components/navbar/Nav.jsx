@@ -8,13 +8,23 @@ import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
 // import MenuIcon from '@mui/icons-material/Menu';
 import logo from "../../assets/MotionArtEffect-logo.png"
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 
 const Nav = () => {
+  
+  useGSAP(()=>{
+    gsap.from(".box",{
+        y:-500,
+        duration:1,
+        delay:0.5,
+    })
+  })
     return (
-      // className='hover:bg-opacity-20'
+     
         <div  >
-    <div className='w-11/12 mx-auto pt-10'>
+    <div className='box w-11/12 mx-auto pt-10'>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar  position="static" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
         <Toolbar>

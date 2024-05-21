@@ -8,38 +8,11 @@ import "./styles.css";
 
 
 import "./styles.css";
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import Fluid from 'webgl-fluid';
+import SupportedBy from "./components/SupportedBy/SupportedBy";
+import Features from "./components/features/Features";
 
-// export default function App() {
-//   const canvasRef = useRef(null);
-//   const [hovered, setHovered] = useState(false);
-
-//   useEffect(() => {
-//     const c = canvasRef.current;
-//     Fluid(c);
-//   }, []);
-
-//   // bg-[#0E0F1A]
-//   return (
-//     <div className="App">
-//       <div className=" " onMouseMove={() => setHovered(true)} onMouseEnter={() => setHovered(true)}  onMouseLeave={() => setHovered(false)}>
-//         <div className="overlay">
-//         <Nav></Nav>
-//         <Banner></Banner>
-//         <TrustedBy></TrustedBy>
-//         <PurchaseFromEnvato></PurchaseFromEnvato>
-//         </div>
-     
-//         </div>
-    
-//       <canvas
-//         ref={canvasRef}
-//         style={{ width: '100%', height: '100%', position: 'fixed', top: 0, left: 0, visibility: hovered ? 'visible' : 'hidden' }}
-//       ></canvas>
-//     </div>
-//   );
-// }
 
 
 export default function App() {
@@ -54,12 +27,14 @@ export default function App() {
       
     
       </canvas>
-      <div className="">
+      
         <Nav></Nav>
          <Banner></Banner>
          <TrustedBy></TrustedBy>
         <PurchaseFromEnvato></PurchaseFromEnvato>
-        </div>
+        <SupportedBy></SupportedBy>
+        <Features></Features>
+        
     </div>
   );
 }
