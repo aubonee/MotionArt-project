@@ -18,8 +18,8 @@ const Footer = () => {
 
            <div>
             <ul className=' text-[12px] list-none flex justify-end items-center gap-5'>  
-                 <li>Documentation</li>
-               <li>Support</li>
+                 <li> <a className='pointer-events-auto' href="https://qodematrix.com/docs/motion-art-for-elementor/" target='_blank'>Documentation</a> </li>
+               <li> <a className='pointer-events-auto' href="https://support.qodematrix.com/" target='_blank'>Support</a> </li>
             </ul>
           
            </div>

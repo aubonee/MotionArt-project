@@ -12,13 +12,16 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
 
+
 const Nav = () => {
   
+
   useGSAP(()=>{
     gsap.from(".box",{
         y:-500,
         duration:1,
         delay:0.5,
+       
     })
   })
     return (
@@ -44,8 +47,8 @@ const Nav = () => {
     
           </Typography>
          
-        
-    <button className=" btn bg-[#FFFFFF] hover:bg-transparent border-[#FFFFFF] border-2 px-5 py-3 rounded-md text-black hover:text-[#ffffff]">Purchase Now</button>
+         
+   <a  href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target='_blank'>  <button className=" btn bg-[#FFFFFF] hover:bg-transparent border-[#FFFFFF] border-2 px-5 py-3 rounded-md text-black hover:text-[#ffffff] pointer-events-auto">Purchase Now</button></a>
         </Toolbar>
       </AppBar>
     </Box>

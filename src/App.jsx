@@ -30,7 +30,8 @@ export default function App() {
     
       </canvas>
       
-        <Nav></Nav>
+      <div className="pointer-events-none">
+      <Nav></Nav>
          <Banner></Banner>
          <TrustedBy></TrustedBy>
         <PurchaseFromEnvato></PurchaseFromEnvato>
@@ -38,6 +39,7 @@ export default function App() {
         <SupportedBy></SupportedBy>
         <Features></Features>
         <Footer></Footer>
+      </div>
         
     </div>
   );

@@ -6,6 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
+
 const PurchaseFromEnvato = () => {
     // useGSAP(()=>{
     //     gsap.from(".gsapbox",{
@@ -31,6 +32,7 @@ const PurchaseFromEnvato = () => {
             }
         })
       })
+     
     return (
      <div>
            <div className='gsapbox w-full my-5'>
@@ -38,7 +40,8 @@ const PurchaseFromEnvato = () => {
                 <div className='w-full lg:w-3/5'>
                     <h2 className='text-[30px] leading-10 '>Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</h2>
                     <p className='text-[18px] leading-8 text-[#ADA7BD] mt-5 mb-2'> Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
-                    <button className='my-10 btn bg-gradient-to-r from-[#F87516] flex justify-center items-center to-[#5e11ff] rounded-md px-5 py-3 '>Purchase From Envato  <div className='ml-3 mt-1'> <FontAwesomeIcon  className='text-[20px]' icon={faArrowRight} /></div></button>
+                  <a className='pointer-events-auto' href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target='_blank'>
+                  <button className='my-10 btn bg-gradient-to-r from-[#F87516] flex justify-center items-center to-[#5e11ff] rounded-md px-6 py-3 '>Purchase From Envato  <div className='ml-3 mt-1 px-1'> <FontAwesomeIcon  className='text-[20px]' icon={faArrowRight} /></div></button></a>  
                 </div>
                 <div className='w-full lg:w-1/5'>
             <img src={img} alt="motionarteffect" />
